@@ -6,7 +6,7 @@ Make sure to consider both the time complexity (how long it takes to run the fun
 
 function sum_of_natural_numbers(N){
     let total = 0;
-    for (let i = 1; i < parseInt(N); i ++){
+    for (let i = 1; i <= parseInt(N); i ++){
         total += i
     }
     return total
